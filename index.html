@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Homely - Responsive Real Estate Template">
+	<meta name="author" content="Rype Creative [Chris Gipple]">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agent | Connect - Let us connect you to the best agent</title>
+
+	<!-- CSS file links -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+	<link href="assets/slick-1.6.0/slick.css" rel="stylesheet">
+	<link href="assets/chosen-1.6.2/chosen.min.css" rel="stylesheet">
+	<link href="css/nouislider.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+	<header class="header-default">
+
+		<div class="container">
+
+			<!-- navbar header -->
+			<div class="navbar-header">
+
+				<div class="header-details">
+					<div class="header-item header-phone left">
+						<table>
+							<tr>
+								<td class="header-item-text">
+									Drop us a line<br/>
+									<a href="mailto:hello@youragentconnect.com"><span>hello@youragentconnect.com</span></a>
+								</td>
+								<td><i class="fa fa-envelope"></i></td>
+							</tr>
+						</table>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Homely" /></a>
+
+				<!-- nav toggle -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+			</div>
+
+			<!-- main menu -->
+			<div class="navbar-collapse collapse">
+				<div class="main-menu-wrap">
+					<div class="container-fixed">
+
+						<ul class="nav navbar-nav right">
+							<li class="current-menu-item">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About us</a>
+							</li>
+							<li>
+								<a href="how.html">How it works</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+						<div class="clear"></div>
+
+					</div>
+
+				</div>
+				<!-- end main menu wrap -->
+			</div>
+			<!-- end navbar collaspe -->
+
+		</div>
+		<!-- end container -->
+	</header>
+
+	<section class="subheader simple-search" style="background-image: url('images/home.jpg')">
+		<div class="container">
+			<form class="subheader__slider" action="/">
+				<div class="subheader__item _current">
+					<h1>Let us connect <i>you</i> to the best <br> Real Estate agent for <i>your</i> needs</h1>
+					<p>...and we even pay you for it</p>
+					<a href="#" class="button large subheader__itemNext">Find <i>your</i> Agent now</a>
+				</div>
+				<div class="subheader__item">
+					<h2>What's the plan?</h2>
+					<p>I want to...</p>
+					<div class="subheader__itemBtns">
+						<input type="radio" id="r11" value="Buy" name="form">
+						<label for="r11" class="button subheader__itemBtns_buy large">Buy</label>
+						<input type="radio" id="r12" value="Sell" name="form">
+						<label for="r12" class="button subheader__itemBtns_sell large">Sell</label>
+						<input type="radio" id="r13" value="Both" name="form">
+						<label for="r13" class="button subheader__itemBtns_both large">Both</label>
+					</div>
+				</div>
+				<div class="subheader__item _buy">
+					<h2>Where do you want to be?</h2>
+					<p>Tell us something about the perfect spot for you...</p>
+					<div class="subheader__item_fields">
+						<div class="multirow">
+							<input type="text" name="buy_city[]" placeholder="City/Suburb" />
+							<span class="multirow__add"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="15" viewBox="0 0 42 42"><polygon points="42 20 22 20 22 0 20 0 20 20 0 20 0 22 20 22 20 42 22 42 22 22 42 22 "/></svg> <small>Add</small></span>
+							<div class="multirow__rows"></div>
+						</div>
+						<div class="multirow">
+							<input type="text" name="buy_comm[]" placeholder="Community" />
+							<span class="multirow__add"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="15" viewBox="0 0 42 42"><polygon points="42 20 22 20 22 0 20 0 20 20 0 20 0 22 20 22 20 42 22 42 22 22 42 22 "/></svg> <small>Add</small></span>
+							<div class="multirow__rows"></div>
+						</div>
+						<div class="multirow">
+							<input type="text" name="buy_school[]" placeholder="School District" />
+							<span class="multirow__add"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="15" viewBox="0 0 42 42"><polygon points="42 20 22 20 22 0 20 0 20 20 0 20 0 22 20 22 20 42 22 42 22 22 42 22 "/></svg> <small>Add</small></span>
+							<div class="multirow__rows"></div>
+						</div>
+						<div class="multirow">
+							<input type="text" name="buy_zip[]" placeholder="Zip Code" />
+							<span class="multirow__add"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="15" viewBox="0 0 42 42"><polygon points="42 20 22 20 22 0 20 0 20 20 0 20 0 22 20 22 20 42 22 42 22 22 42 22 "/></svg> <small>Add</small></span>
+							<div class="multirow__rows"></div>
+						</div>
+						<textarea name="buy_other" placeholder="Other"></textarea>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+						<a href="#" class="button subheader__itemBtns_buy large">Next</a>
+					</div>
+				</div>
+				<div class="subheader__item _buy">
+					<h2>What's your style?</h2>
+					<div class="subheader__item_style">
+						<input type="radio" id="r21" name="buy_style" value="Single Famile Home">
+						<label for="r21" class="subheader__itemBtns_buy" style="background-image: url('images/style_1.jpg')"><span>Single Famile <br> Home</span></label>
+						<input type="radio" id="r22" name="buy_style" value="CONDO">
+						<label for="r22" class="subheader__itemBtns_buy" style="background-image: url('images/style_2.jpg')"><span>CONDO</span></label>
+						<input type="radio" id="r23" name="buy_style" value="LAND">
+						<label for="r23" class="subheader__itemBtns_buy" style="background-image: url('images/style_3.jpg')"><span>LAND</span></label>
+						<input type="radio" id="r24" name="buy_style" value="INVESTMENT">
+						<label for="r24" class="subheader__itemBtns_buy" style="background-image: url('images/style_4.jpg')"><span>INVESTMENT</span></label>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+				<div class="subheader__item _buy">
+					<h2>What's your budget?</h2>
+					<div class="subheader__item_options">
+						<input type="radio" id="r31" name="buy_budget" value="Under $75K">
+						<label for="r31" class="subheader__itemBtns_buy"><span>Under $75K</span></label>
+						<input type="radio" id="r32" name="buy_budget" value="$75-$125K">
+						<label for="r32" class="subheader__itemBtns_buy"><span>$75K - $125K</span></label>
+						<input type="radio" id="r33" name="buy_budget" value="$125 - $175K">
+						<label for="r33" class="subheader__itemBtns_buy"><span>$125K - $175K</span></label>
+						<input type="radio" id="r34" name="buy_budget" value="$175K - $225K">
+						<label for="r34" class="subheader__itemBtns_buy"><span>$175K - $225K</span></label>
+						<input type="radio" id="r35" name="buy_budget" value="$225K - $300K">
+						<label for="r35" class="subheader__itemBtns_buy"><span>$225K - $300K</span></label>
+						<input type="radio" id="r36" name="buy_budget" value="Over $300K">
+						<label for="r36" class="subheader__itemBtns_buy"><span>Over $300K</span></label>
+						<a href="#" class="subheader__item_styleCalc _open_pop" data-name="calc" data-txt="Payment calculator"><span>Check out our payment calculator</span></a>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+				<div class="subheader__item _buy">
+					<h2>What's your timeframe?</h2>
+					<div class="subheader__item_options">
+						<input type="radio" id="r41" name="buy_timeframe" value="ASAP">
+						<label for="r41" class="subheader__itemBtns_final"><span>ASAP</span></label>
+						<input type="radio" id="r42" name="buy_timeframe" value="1-3 Months">
+						<label for="r42" class="subheader__itemBtns_final"><span>1-3 Months</span></label>
+						<input type="radio" id="r43" name="buy_timeframe" value="3-6 Months">
+						<label for="r43" class="subheader__itemBtns_final"><span>3-6 Months</span></label>
+						<input type="radio" id="r44" name="buy_timeframe" value="6-12 Months/">
+						<label for="r44" class="subheader__itemBtns_final"><span>6-12 Months</span></label>
+						<input type="radio" id="r45" name="buy_timeframe" value="12+ Months">
+						<label for="r45" class="subheader__itemBtns_final"><span>12+ Months</span></label>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+
+
+				<div class="subheader__item _width _sell">
+					<h2>What are you selling?</h2>
+					<p>Tell us something about what are you selling...</p>
+					<div class="subheader__item_fields">
+						<input type="text" name="sell_address" placeholder="Address" />
+						<input type="text" name="sell_street" placeholder="Street" />
+						<input type="text" name="sell_zip" placeholder="Zip Code" />
+						<textarea name="sell_other" placeholder="Other"></textarea>
+						<a href="#" class="subheader__item_styleCalc _open_pop" data-name="cma" data-txt="Comparative Market Analysis"><span>Get a free market analysis</span></a>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+						<a href="#" class="button subheader__itemBtns_sell large">Next</a>
+					</div>
+				</div>
+				<div class="subheader__item _sell">
+					<h2>What type of property is it?</h2>
+					<div class="subheader__item_style">
+						<input type="radio" id="r21" name="sell_style" value="Single Famile Home">
+						<label for="r21" class="subheader__itemBtns_sell" style="background-image: url('images/style_1.jpg')"><span>Single Famile <br> Home</span></label>
+						<input type="radio" id="r22" name="sell_style" value="CONDO">
+						<label for="r22" class="subheader__itemBtns_sell" style="background-image: url('images/style_2.jpg')"><span>CONDO</span></label>
+						<input type="radio" id="r23" name="sell_style" value="LAND">
+						<label for="r23" class="subheader__itemBtns_sell" style="background-image: url('images/style_3.jpg')"><span>LAND</span></label>
+						<input type="radio" id="r24" name="sell_style" value="INVESTMENT">
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+				<div class="subheader__item _sell">
+					<h2>What's your timeframe?</h2>
+					<div class="subheader__item_options">
+						<input type="radio" id="r111" name="sell_timeframe" value="ASAP">
+						<label for="r111" class="subheader__itemBtns_sell"><span>ASAP</span></label>
+						<input type="radio" id="r112" name="sell_timeframe" value="1-3 Months">
+						<label for="r112" class="subheader__itemBtns_sell"><span>1-3 Months</span></label>
+						<input type="radio" id="r113" name="sell_timeframe" value="3-6 Months">
+						<label for="r113" class="subheader__itemBtns_sell"><span>3-6 Months</span></label>
+						<input type="radio" id="r114" name="sell_timeframe" value="6-12 Months/">
+						<label for="r114" class="subheader__itemBtns_sell"><span>6-12 Months</span></label>
+						<input type="radio" id="r115" name="sell_timeframe" value="12+ Months">
+						<label for="r115" class="subheader__itemBtns_sell"><span>12+ Months</span></label>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+				<div class="subheader__item _sell">
+					<h2>How much do you thinks it's worth?</h2>
+					<div class="subheader__item_options">
+						<input type="radio" id="r121" name="sell_budget" value="Under $100K">
+						<label for="r121" class="subheader__itemBtns_final"><span>Under $100K</span></label>
+						<input type="radio" id="r122" name="sell_budget" value="$100K - $150K">
+						<label for="r122" class="subheader__itemBtns_final"><span>$100K - $150K</span></label>
+						<input type="radio" id="r123" name="sell_budget" value="$150K - $250K">
+						<label for="r123" class="subheader__itemBtns_final"><span>$150K - $250K</span></label>
+						<input type="radio" id="r124" name="sell_budget" value="$250K - $350K">
+						<label for="r124" class="subheader__itemBtns_final"><span>$250K - $350K</span></label>
+						<input type="radio" id="r125" name="sell_budget" value="Over $350K">
+						<label for="r125" class="subheader__itemBtns_final"><span>Over $350K</span></label>
+						<input type="radio" id="r126" name="sell_budget" value="I have no clue">
+						<label for="r126" class="subheader__itemBtns_final"><span>I have no clue</span></label>
+						<a href="#" class="subheader__item_styleCalc _open_pop" data-name="cma" data-txt="Comparative Market Analysis"><span>Get a free market analysis</span></a>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+					</div>
+				</div>
+				<div class="subheader__item _final">
+					<h2>Let's get you connected</h2>
+					<div class="subheader__item_fields">
+						<input type="text" name="name" placeholder="Name" />
+						<input type="email" name="mail" placeholder="Email Address" />
+						<input type="text" name="phone" placeholder="Phone Number" />
+						<textarea name="message" placeholder="Anything else we should know?"></textarea>
+					</div>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Back</a>
+						<button type="submit" class="button large">GET CONNECTED!</button>
+					</div>
+				</div>
+				<div class="subheader__item _thnx">
+					<h2>Got it!</h2>
+					<img src="images/divider.png" alt="">
+					<h4>Thanks <span class="subheader__item_name"></span>,</h4>
+					<p>We are ready to find you the best Agent for your needs. <br> If we have questions, we will contac you, otherwise your Agent will be in touch soon!</p>
+					<h5><strong>Thank you,</strong> <br> Agent Connect <br><a href="tel:8888888888"><span>888-888-8888</span></a></h5>
+					<div class="subheader__itemBtns">
+						<a href="#" class="button subheader__itemBtns_back large">Close</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- end container -->
+	</section>
+	<section class="module services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="service-item shadow-hover">
+						<i><img src="images/004-sign.svg" alt=""></i>
+						<h4>It’s all about you</h4>
+						<p> We find out your wants and expectations in your new home or property you are selling</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="service-item shadow-hover">
+						<i><img src="images/003-house-search.svg" alt=""></i>
+						<h4>Based on your needs</h4>
+						<p>and interests we match you with a top performing Realtor that is best suited to provide you the best Buyer or Selling experience possible</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="service-item shadow-hover">
+						<i><img src="images/002-house-price-symbol.svg" alt=""></i>
+						<h4>The best part!</h4>
+						<p>After closing on your dream home or home your are selling we will send you a check!  Yes, one you can actually cash.</p>
+					</div>
+				</div>
+			</div>
+			<h5 class="text-center">There are over <strong>7,000</strong> Realtors in the Central Ohio area and only <strong>20%</strong> close more than <strong>5</strong> deals per year..</h5>
+			<!-- end row -->
+		</div>
+		<!-- end container -->
+	</section>
+	<section class="module content whether">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<img src="images/agent.jpg" />
+					<div class="clear"></div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<h3>Whether you are Buyer or Selling</h3>
+					<h5>you deserve an Agent you can count on</h5>
+					<img src="images/divider-half.png" alt="" /><br/><br/>
+					<p>With over 7,000 Realtors serving the Central Ohio market it can be a daunting task to find someone that truly has your best interests in mind rather than rushing you to a closing table so they can get a commission.</p>
+					<p>We screen Agents based on <b>performance, reviews, reputation, and even public records.</b></p>
+					<p>It is not only important to have a professional, reliable, honest Agent, but also one that you actually want to work with.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="module testimonials">
+
+		<div class="container">
+			<div class="module-header">
+				<h2>People are talking about us</h2>
+				<img src="images/divider-white.png" alt="" />
+				<p>...and what they are saying is really good!</p>
+			</div>
+		</div>
+
+		<div class="slider-nav slider-nav-testimonials">
+			<span class="slider-prev"><i class="fa fa-angle-left"></i></span>
+			<span class="slider-next"><i class="fa fa-angle-right"></i></span>
+		</div>
+
+		<div class="container">
+			<div class="slider slider-testimonials">
+				<div class="testimonial slide">
+					<h3>Before finding Agent Connect, we were lost and had no clue how to find a trustworthy agent. Now we are at ease, and the buying process is simple.</h3>
+					<div class="testimonial-details">
+						<img class="testimonial-img" src="images/70x70.png" alt="" />
+						<p class="testimonial-name"><strong>John Doe</strong></p>
+						<span class="testiomnial-title"><em>CEO at <a href="#">Rype Creative</a></em></span>
+					</div>
+				</div>
+				<div class="testimonial slide">
+					<h3>"Homely helped us sell our house with minimal effort. Their team was efficient and always there to help! Homely helped us sell our house with minimal effort. Their team was efficient and always there to help!"</h3>
+					<div class="testimonial-details">
+						<img class="testimonial-img" src="images/70x70.png" alt="" />
+						<p class="testimonial-name"><strong>John Doe</strong></p>
+						<span class="testiomnial-title"><em>CEO at <a href="#">Rype Creative</a></em></span>
+					</div>
+				</div>
+			</div>
+			<!-- end slider -->
+		</div>
+		<!-- end container -->
+	</section>
+	<section class="module content">
+		<div class="container">
+
+			<div class="module-header">
+				<h2>Get the <b>BEST</b> Agent, and get PAID</h2>
+				<img src="images/divider.png" alt="" />
+				<hr>
+				<p>Our service is <strong>100% free</strong>, actually we have to pay you!</p>
+				<p>Agents do not pay Agent Connect to be a preferred Agent. <br> All selections are 100% non-biased, completely based on your  <br>needs, interests, and expectations.</p>
+				<h5><small>Not ready yet?</small> </h5>
+				<h4>
+					Let’s talk about it...
+					<a href="tel:8888888888">888-888-8888</a>
+				</h4>
+			</div>
+
+		</div><!-- end container -->
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-4 widget footer-widget">
+					<a class="footer-logo" href="index.html"><img src="images/logo-white.png" alt="Homely" /></a>
+					<div class="divider"></div>
+					<ul class="social-icons circle">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-9 pull-right col-md-3 col-sm-4 footer-links">
+					<h5>
+						<img src="images/divider-half.png" alt="" />
+						<a href="faq.html"><span>FAQ</span></a>
+					</h5>
+					<h5>
+						<img src="images/divider-half.png" alt="" />
+						<a href="contact.html"><span>Contact Us</span></a>
+					</h5>
+					<h5>
+						<img src="images/divider-half.png" alt="" />
+						<a href="about.html"><span>Our Company</span></a>
+					</h5>
+					<h5>
+						<img src="images/divider-half.png" alt="" />
+						<a href="testimonials.html"><span>Testimonials</span></a>
+					</h5>
+					<h5>
+						<img src="images/divider-half.png" alt="" />
+						<a href="privacy.html"><span>Privacy Policy</span></a>
+					</h5>
+				</div>
+			</div>
+			<!-- end row -->
+		</div>
+		<!-- end footer container -->
+	</footer>
+
+	<div class="bottom-bar">
+		<div class="container">
+			Agent Connect  |  © All Rights Reserved - 2017
+		</div>
+	</div>
+	<div class="overlay"></div>
+	<div class="popup popup_calc">
+		<div class="_close_pop">&times;</div>
+		<h3>Payment calculator</h3>
+		<div style="width:100%; text-align:center;"><p style="background-color:#fff;"><a href="https://www.mortgagecalculator.org/" target="_blank"></a><br><iframe src="https://www.mortgagecalculator.org/free-tools/calculator/caller.html" frameborder="0" width="191px" height="336" scrolling="no"></iframe><br><a href="https://www.mortgagecalculator.org/free-tools/"></a></p></div>
+		<h6>*Principal and interest only.  Monthly payment does not include taxes or insurance.</h6>
+	</div>
+	<div class="popup popup_cma">
+		<div class="_close_pop">&times;</div>
+		<h3>Comparative Market Analysis</h3>
+		<form action="/" class="popup_cma__form">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_name" />
+						<label>Name</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_phone" />
+						<label>Phone</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="email" name="cma_mail" />
+						<label>Email</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_subj_address" />
+						<label>Subject Property Address</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_subj_city" />
+						<label>Subject Property City</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_subj_state" />
+						<label>Subject Property State</label>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block">
+						<input class="border" type="text" name="cma_subj_zip" />
+						<label>Subject Property Zip Code</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block border">
+						<label>When do you plan on Selling</label>
+						<select name="cma_plan" class="border">
+							<option></option>
+							<option value="ASAP">ASAP</option>
+							<option value="1-3 Months">1-3 Months</option>
+							<option value="3-6 Months">3-6 Months</option>
+							<option value="6-12 Months">6-12 Months</option>
+							<option value="Unknown">Unknown</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-block border">
+						<label>Reason Selling</label>
+						<select name="cma_reason" class="border">
+							<option></option>
+							<option value="Work">Work</option>
+							<option value="Down Size">Down Size</option>
+							<option value="Up Size">Up Size</option>
+							<option value="Retirement">Retirement</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<label>Comments</label>
+					<textarea placeholder="Tell us anything that might be help about your property or situation" class="border" name="cma_comments"></textarea>
+				</div>
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<label>How do you wish to be contacted?</label>
+						</div>
+						<div class="col-sm-4 col-md-3">
+							<label><input type="radio" name="cma_contacted" value="Phone" checked/>Phone</label>
+						</div>
+						<div class="col-sm-4 col-md-3">
+							<label><input type="radio" name="cma_contacted" value="Email" />Email</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<button type="submit" class="button subheader__itemBtns_buy large">Submit</button>
+			</div>
+		</form>
+	</div>
+	<div class="popup popup_thnx">
+		<div class="_close_pop">&times;</div>
+		<h2><span>Thank you!</span></h2>
+	</div>
+
+
+	<!-- JavaScript file links -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<!-- Jquery -->
+	<script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- bootstrap 3.0 -->
+	<script src="assets/slick-1.6.0/slick.min.js"></script>
+	<!-- slick slider -->
+	<script src="assets/chosen-1.6.2/chosen.jquery.min.js"></script>
+	<!-- chosen - for select dropdowns -->
+	<script src="js/isotope.min.js"></script>
+	<!-- isotope-->
+	<script src="js/wNumb.js"></script>
+	<!-- price formatting -->
+	<script src="js/nouislider.min.js"></script>
+	<!-- price slider -->
+	<script src="assets/jquery.validate.min.js"></script>
+	<script src="js/global.js"></script>
+
+
+</body>
+
+</html>
