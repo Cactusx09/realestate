@@ -533,13 +533,21 @@ jQuery(document).ready(function($) {
 		 	$(this).parent().find('.disabled').show();
 		}
 	});
+	//inputs
+	$('.multirow__add input,.multirow__add textarea').change(function(){
+		if($(this).val()==''){
+			$(this).removeClass('_active');
+		}else{
+			$(this).addClass('_active');
+		}
+	});
 
 	$('.multirow__add').click(function(){
-		var input = $(this).prev('input'),
+		var input = $(this).prevAll('input'),
 			wrp = input.closest('.multirow'),
 			rows = wrp.find('.multirow__rows');
 		input.clone().appendTo(rows);
-		input.val('');
+		input.val('').removeClass('_active');
 		$('.multirow__rows input[type="text"]').keyup(resizeInput).each(resizeInput);
 	});
 
